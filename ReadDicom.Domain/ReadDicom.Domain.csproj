@@ -6,4 +6,14 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="fo-dicom.NetCore" Version="4.0.8" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="dicom-files\image-00000.dcm">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
