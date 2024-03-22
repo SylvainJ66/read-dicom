@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadDicom.Console", "ReadDicom.Console\ReadDicom.Console.csproj", "{C61FA86E-375C-4A57-AF02-0689C42FCDAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadDicom.Domain", "ReadDicom.Domain\ReadDicom.Domain.csproj", "{729D1B12-C077-43BC-B030-B98D94B821E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadDicom.Domain.Tests", "ReadDicom.Domain.Tests\ReadDicom.Domain.Tests.csproj", "{E2D07314-2BBC-4DF9-9ED6-6EC22B0D1A94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{C61FA86E-375C-4A57-AF02-0689C42FCDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C61FA86E-375C-4A57-AF02-0689C42FCDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C61FA86E-375C-4A57-AF02-0689C42FCDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729D1B12-C077-43BC-B030-B98D94B821E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729D1B12-C077-43BC-B030-B98D94B821E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729D1B12-C077-43BC-B030-B98D94B821E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729D1B12-C077-43BC-B030-B98D94B821E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D07314-2BBC-4DF9-9ED6-6EC22B0D1A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D07314-2BBC-4DF9-9ED6-6EC22B0D1A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D07314-2BBC-4DF9-9ED6-6EC22B0D1A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D07314-2BBC-4DF9-9ED6-6EC22B0D1A94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
