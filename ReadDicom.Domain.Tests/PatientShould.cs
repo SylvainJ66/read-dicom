@@ -8,8 +8,9 @@ public class PatientShould
     public void Patient_should_be_created_from_dicom_file()
     {
         var dicomFilePath = "image-00000.dcm";
+        var dicomFactory = new DicomFactory(dicomFilePath);
         
-        var patient = new Patient(dicomFilePath);
+        var patient = dicomFactory.CreatePatient();
         
         patient.Should().BeEquivalentTo(new
         {
